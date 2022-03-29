@@ -24,11 +24,6 @@
             <h1>Display Users</h1>
         </div>
     <ul class="list-group list-group-flush">
-        <!--<li class="list-group-item ligrid"><span>Cras</span><span>justo</span><span>odio</span></li>
-        <li class="list-group-item">Dapibus ac facilisis in</li>
-        <li class="list-group-item">Morbi leo risus</li>
-        <li class="list-group-item">Porta ac consectetur ac</li>
-        <li class="list-group-item">Vestibulum at eros</li> -->
         <?php
             include 'dbLogin.php';
             include 'functions.php';

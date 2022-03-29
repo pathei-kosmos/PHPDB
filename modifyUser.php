@@ -30,33 +30,6 @@
             $id = $_GET['id'];
             userEditor($db, $id);
         ?>
-        <!-- <label for="name">Last Name :</label>
-        <div class="div">
-            <div class="input-group">
-                <input type="text" class="form-control" placeholder="User's last name" name="name">
-                <div class="input-group-append">
-                    <span class="input-group-text" id="basic-addon2">Current value : </span>
-                </div>  
-            </div>
-        </div>
-        <div class="div">
-            <label for="firstName">First Name :</label>
-            <div class="input-group">
-                <input type="text" class="form-control" placeholder="User's first name" name="firstName">  
-            </div>
-        </div>
-        <div class="div">
-            <label for="mail">Email :</label>
-            <div class="input-group">
-                <input type="email" class="form-control" placeholder="User's email" name="mail">  
-            </div>
-        </div>
-        <div class="div">
-            <label for="pwd">Password :</label>
-            <div class="input-group">
-                <input type="password" class="form-control" placeholder="User's password" name="pwd">  
-            </div>
-        </div> -->
         <button type="submit" class="btn btn-primary btn-lg btn-block col-sm-12">Send</button>
     </form>
     <?php
