@@ -59,7 +59,7 @@
             $name = $_POST['name'];
             $firstName = $_POST['firstName'];
             $mail = $_POST['mail'];
-            $pwd = $_POST['pwd'];
+            $pwd = md5($_POST['pwd']);
             addUser($db, $name, $firstName, $mail, $pwd);
         } else if (!isset($_GET['error'])) {
             echo "<div class='alert alert-warning mt-4' role='alert'>Please complete the form.</div>";
