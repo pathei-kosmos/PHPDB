@@ -1,6 +1,6 @@
 <?php
     function addUser($db, $name, $firstName, $mail, $pwd) {
-        $reqRead = $db->prepare('SELECT * FROM users');
+        $reqRead = $db->prepare('SELECT mail_user FROM users');
         $reqRead->execute();
         $alreadyExistent = false;
 
